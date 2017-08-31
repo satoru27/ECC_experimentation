@@ -22,7 +22,7 @@ print(prime2)
 print("--- \t%s seconds\t ---" % (time.time() - start))
 
 
-#print("--- \tstart\t ---")
-#start = time.time()
-#print(gmpy2.is_prime(prime2,1))
-#print("--- \t%s seconds\t ---" % (time.time() - start))
+print("--- \tstart\t ---")
+start = time.time()
+print(gmpy2.is_prime(2011))
+print("--- \t%s seconds\t ---" % (time.time() - start))
