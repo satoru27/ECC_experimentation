@@ -9,7 +9,7 @@ int main(){
 	for(unsigned int i = 1; i < 6918; i++)
 		mpz_mul_ui(rop,rop,i);
 
-	mpz_sub_ui(rop,rop,1);
+	mpz_sub_ui(rop,rop,1); //6917! - 1
 
 	gmp_printf ("Calculated number:\n %Zd\n",rop);
 
